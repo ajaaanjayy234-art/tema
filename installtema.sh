@@ -535,7 +535,7 @@ install_auto_suspend() {
   cd "$TEMP_DIR"
 
   print_info "Mengunduh file autosuspend.zip..."
-  wget -q https://github.com/ajaaanjayy234-art/autosuspend/blob/main/autosuspend.zip
+  wget -q https://raw.githubusercontent.com/ajaaanjayy234-art/autosuspend/main/autosuspend.zip
   
   print_info "Mengekstrak file..."
   unzip -oq autosuspend.zip
