@@ -546,7 +546,7 @@ install_auto_suspend() {
   cd /var/www/pterodactyl
   
   print_info "Menjalankan skrip autosuspend (installer.sh)..."
-  sudo bash installer.sh <<EOF > /dev/null 2>&1
+  sudo bash installer.bash <<EOF > /dev/null 2>&1
 y
 EOF
 
